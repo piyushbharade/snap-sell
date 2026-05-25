@@ -61,6 +61,13 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+@theme inline {
+  --color-spice: var(--spice);
+  --color-leaf: var(--leaf);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", Inter, sans-serif;
+}
+
 :root {
   --radius: 1rem;
   --background: oklch(0.985 0.012 80);
