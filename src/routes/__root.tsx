@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Snap one photo. Get a ready-to-sell product listing in English & Hindi, with price bracket and social post — powered by AI." },
       { name: "author", content: "DukaanGenie" },
       { property: "og:title", content: "DukaanGenie — Snap. List. Sell." },
-      { property: "og:description", content: "AI-powered catalog booster for local vendors. English + Hindi listings from a single photo." },
+      { property: "og:description", content: "Snap one photo. Get a ready-to-sell product listing in English & Hindi, with price bracket and social post — powered by AI." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "DukaanGenie — Snap. List. Sell." },
+      { name: "twitter:description", content: "Snap one photo. Get a ready-to-sell product listing in English & Hindi, with price bracket and social post — powered by AI." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b948218d-e963-4722-88a2-a920c1aaaa5b/id-preview-51ffd670--d4eb3fd5-ceff-490c-b480-9ef8ce30a2ff.lovable.app-1779692656851.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b948218d-e963-4722-88a2-a920c1aaaa5b/id-preview-51ffd670--d4eb3fd5-ceff-490c-b480-9ef8ce30a2ff.lovable.app-1779692656851.png" },
     ],
     links: [
       {
