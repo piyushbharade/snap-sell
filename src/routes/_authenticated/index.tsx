@@ -78,6 +78,10 @@ function Home() {
       <main className="mx-auto max-w-6xl px-6 pb-24">
         <section className="grid gap-10 pt-4 pb-12 md:grid-cols-[1.1fr_1fr] md:items-center">
           <div>
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-3 py-1 text-xs font-medium text-muted-foreground backdrop-blur">
+              <span className="grid h-4 w-4 place-items-center rounded-full text-[10px] text-primary-foreground" style={{ background: "var(--gradient-cool)" }}>✦</span>
+              Powered by Google Gemini
+            </div>
             <h1 className="font-display text-4xl font-black leading-[1.05] tracking-tight md:text-6xl">
               Snap a photo.<br />
               <span className="bg-clip-text text-transparent" style={{ backgroundImage: "var(--gradient-warm)" }}>

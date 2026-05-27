@@ -114,6 +114,10 @@ function LoginPage() {
               </li>
             ))}
           </ul>
+          <div className="mt-8 inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1.5 text-xs text-muted-foreground backdrop-blur">
+            <span className="grid h-4 w-4 place-items-center rounded-full text-[10px] text-primary-foreground" style={{ background: "var(--gradient-cool)" }}>✦</span>
+            Powered by Google Gemini vision AI
+          </div>
         </div>
 
         {/* Auth card */}
