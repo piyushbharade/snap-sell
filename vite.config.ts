@@ -1,15 +1,10 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
-import { nitro } from "nitro/vite";
 
 export default defineConfig({
+  base: "/snap-sell/",
   tanstackStart: {
-    server: { entry: "server" },
-  },
-  vite: {
-    plugins: [
-      nitro({
-        preset: "vercel",
-      }),
-    ],
+    server: { 
+      entry: "server" 
+    },
   },
 });
