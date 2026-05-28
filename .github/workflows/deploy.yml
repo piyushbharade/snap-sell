@@ -38,12 +38,12 @@ jobs:
           VITE_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.VITE_SUPABASE_PUBLISHABLE_KEY }}
 
       - name: Route Fallback Configuration
-        run: cp dist/index.html dist/404.html
+        run: cp .output/public/index.html .output/public/404.html
 
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./.output/public
 
       - name: Deploy Site Live
         id: deployment
